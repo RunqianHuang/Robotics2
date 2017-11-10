@@ -1,0 +1,11 @@
+<!-- Launch the framework code for problem 3b on HW2 -->
+<launch>
+  <node name="p3b" pkg="hw2" type="p3b.py">
+  </node>
+  <node name="p3a" pkg="hw2" type="p3a.py">
+  </node>
+  <node name="p2b" pkg="hw2" type="p2b.py">
+  </node>
+  <node name="p1b" pkg="hw2" type="p1b.py">
+  </node>
+</launch>
